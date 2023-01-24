@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="album_cols_port">5</integer>
+    <integer name="albumset_cols_land">5</integer>
+    <integer name="albumset_cols_port">4</integer>
+    <integer name="albumset_rows_land">5</integer>
+    <integer name="albumset_rows_port">4</integer>
+</resources>

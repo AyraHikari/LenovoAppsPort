@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="action_bar_margin_left">44.0dip</dimen>
+    <dimen name="action_bar_margin_right">44.0dip</dimen>
+    <item type="dimen" name="album_set_page_albums_size">@dimen/title_main_text_size</item>
+    <dimen name="album_set_page_press_h">29.0dip</dimen>
+    <dimen name="albumset_slot_height_land">250.0dip</dimen>
+    <dimen name="albumset_slot_margin_left_land">44.0dip</dimen>
+    <dimen name="albumset_slot_width_gap_land">30.0dip</dimen>
+    <dimen name="filter_text_margin_top">-3.0dip</dimen>
+    <dimen name="main_panel_container_width">190.0dip</dimen>
+    <dimen name="titleBarRight">44.0dip</dimen>
+    <dimen name="trash_arrow_margin_right_x">80.0dip</dimen>
+    <dimen name="trash_arrow_width">36.0dip</dimen>
+    <dimen name="trash_count_margin_arraw">7.0dip</dimen>
+    <dimen name="trash_item_width">203.0dip</dimen>
+    <dimen name="widgetButtonMarginBottom">2.0dip</dimen>
+    <dimen name="widgetButtonMarginLeft">6.0dip</dimen>
+    <dimen name="widget_margin_left">-57.0dip</dimen>
+    <dimen name="widget_margin_top">0.0dip</dimen>
+    <dimen name="widget_minutes_margin_top">-10.0dip</dimen>
+    <dimen name="widget_height">290.0dip</dimen>
+    <dimen name="widget_wight">260.0dip</dimen>
+    <dimen name="widget_error_height_y">47.0dip</dimen>
+    <dimen name="widget_error_width_x">58.0dip</dimen>
+    <dimen name="widget_icon_height">220.0dip</dimen>
+    <dimen name="widget_text_size">45.0dip</dimen>
+    <dimen name="widget_time_height">205.0dip</dimen>
+    <dimen name="widget_time_margin_left">19.0dip</dimen>
+    <dimen name="widget_time_width">98.0dip</dimen>
+    <dimen name="widget_total_width">310.0dip</dimen>
+    <dimen name="widget_week_margin_left">22.0dip</dimen>
+</resources>

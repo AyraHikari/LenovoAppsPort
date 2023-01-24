@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="trash_arrow_margin_right_x">44.0dip</dimen>
+    <dimen name="trash_background_color_margin_right">80.0dip</dimen>
+    <dimen name="trash_item_duration_left">107.0dip</dimen>
+    <dimen name="trash_item_duration_size">9.0dip</dimen>
+    <dimen name="trash_item_duration_top">201.0dip</dimen>
+    <dimen name="trash_item_icon_size">22.0dip</dimen>
+    <dimen name="trash_item_video_duration">10.0dip</dimen>
+    <dimen name="trash_item_video_left">6.0dip</dimen>
+    <dimen name="trash_item_video_size">22.0dip</dimen>
+    <dimen name="trash_item_video_top">6.0dip</dimen>
+    <dimen name="trash_item_width">175.0dip</dimen>
+    <dimen name="trash_title_image_left">32.0dip</dimen>
+</resources>

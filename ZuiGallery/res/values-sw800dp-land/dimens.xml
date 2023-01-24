@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="album_set_page_press_h">19.0dip</dimen>
+    <dimen name="album_slot_gap_land">5.0px</dimen>
+    <dimen name="categorytrack_width">58.0dip</dimen>
+    <dimen name="draw_seek_bar_slider_width">300.0dip</dimen>
+    <dimen name="edit_margin_top">23.0dip</dimen>
+    <dimen name="edit_page_size">18.0dip</dimen>
+    <dimen name="filter_iconview_top">13.0dip</dimen>
+    <dimen name="local_time_album_slot_gap_divider_land">6.0px</dimen>
+    <dimen name="look_left">0.0px</dimen>
+    <dimen name="seektext_margin">-7.0dip</dimen>
+    <dimen name="titleMainTextSizeSetAddPage">24.0dip</dimen>
+    <dimen name="title_main_text_size">24.0dip</dimen>
+    <dimen name="video_operation_bar_margin_bottom">20.0dip</dimen>
+</resources>

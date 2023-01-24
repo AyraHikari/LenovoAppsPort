@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Idite na početnu</string>
+    <string name="abc_action_bar_up_description">Idite nagore</string>
+    <string name="abc_action_menu_overflow_description">Još opcija</string>
+    <string name="abc_action_mode_done">Gotovo</string>
+    <string name="abc_activity_chooser_view_see_all">Prikaži sve</string>
+    <string name="abc_activitychooserview_choose_application">Izaberite aplikaciju</string>
+    <string name="abc_capital_off">ISKLJUČENO</string>
+    <string name="abc_capital_on">UKLJUČENO</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">taster za razmak</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Pretražite…</string>
+    <string name="abc_searchview_description_clear">Obrišite upit</string>
+    <string name="abc_searchview_description_query">Pretražite upit</string>
+    <string name="abc_searchview_description_search">Pretražite</string>
+    <string name="abc_searchview_description_submit">Pošaljite upit</string>
+    <string name="abc_searchview_description_voice">Glasovna pretraga</string>
+    <string name="abc_shareactionprovider_share_with">Delite pomoću</string>
+    <string name="abc_shareactionprovider_share_with_application">Delite pomoću aplikacije %s</string>
+    <string name="abc_toolbar_collapse_description">Skupi</string>
+    <string name="date_picker_dialog_x_title">%4$s, %3$s. %2$s, %1$s</string>
+    <string name="keyboardviewx_done">Potvrdi</string>
+    <string name="listview_x_title_items_selected">Stavki: %1$s</string>
+    <string name="listview_x_title_main">Izabran je sledeći broj stavki: %1$s</string>
+    <string name="listview_x_title_no_item_selected">Izaberite</string>
+    <string name="listview_x_title_one_item_selected">1 stavka</string>
+    <string name="listview_x_title_select_all">Izaberi sve</string>
+    <string name="listview_x_title_unselect_all">Opozovi izbor svih</string>
+    <string name="message_dialog_paired_message_separator">:</string>
+    <string name="search_menu_title">Pretražite</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="time_picker_dialog_x_am">pre podne</string>
+    <string name="time_picker_dialog_x_complete">Gotovo</string>
+    <string name="time_picker_dialog_x_midnight">ponoć</string>
+    <string name="time_picker_dialog_x_noon">podne</string>
+    <string name="time_picker_dialog_x_pm">posle podne</string>
+    <string name="time_picker_dialog_x_title">%1$s:%2$s %3$s</string>
+</resources>

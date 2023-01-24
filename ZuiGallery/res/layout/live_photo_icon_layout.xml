@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/live_photo_container" android:background="@drawable/live_photo_icon_background" android:paddingTop="3.0dip" android:paddingBottom="3.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/live_photo_icon_right_margin" android:layout_marginBottom="@dimen/live_photo_icon_botton_margin" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/live_photo_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:src="@drawable/normal_video_live_photo" />
+    <TextView android:textSize="12.0dip" android:textColor="#ffffffff" android:layout_gravity="center_vertical" android:id="@id/live_photo_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:text="@string/live_photo_text" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/live_photo_more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginRight="7.0dip" android:src="@drawable/live_photo_enter" />
+</LinearLayout>

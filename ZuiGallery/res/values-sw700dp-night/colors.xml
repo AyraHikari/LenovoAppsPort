@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="albumpage_title">#ccffffff</color>
+    <color name="continuous_doneBtn_color">#ffffffff</color>
+    <color name="continuous_doneBtn_enabled_color">#66ffffff</color>
+    <color name="location_message_color">#99e0e0f0</color>
+    <color name="no_photos_text_color">#ffe0e0f0</color>
+    <color name="photo_page_title_color">#ccfafafa</color>
+    <color name="photo_text_color_hi">#ff596dff</color>
+    <color name="remove_color">#ffffffff</color>
+    <color name="tab_layout_land_bg">#1fe0e0f0</color>
+    <color name="tab_title_bar_color">#99000000</color>
+    <color name="transparent_background_black">#99000000</color>
+</resources>

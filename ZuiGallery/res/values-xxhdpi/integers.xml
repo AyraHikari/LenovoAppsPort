@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="widgetTargetCellHeight4x2">2</integer>
+    <integer name="widgetTargetCellWidth4x2">4</integer>
+    <integer name="widgetTargetCellHeight">3</integer>
+    <integer name="widgetTargetCellWidth">4</integer>
+</resources>

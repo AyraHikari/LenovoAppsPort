@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_000" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_001" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_002" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_003" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_004" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_005" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_006" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_007" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_008" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_009" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_010" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_011" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_012" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_013" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_014" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_015" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_016" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_017" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_018" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_019" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_020" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_021" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_022" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_023" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_024" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_025" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_026" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_027" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_028" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_029" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_030" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_031" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_032" />
+    <item android:duration="30" android:drawable="@drawable/loading_large_rotate_033" />
+</animation-list>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/fileItemLayout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/fileListImg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <ImageView android:id="@id/fileVideoIcon" android:visibility="gone" android:layout_width="@dimen/trash_item_video_size" android:layout_height="@dimen/trash_item_video_size" android:layout_marginLeft="@dimen/photoPageItemVideoLeftMargin" android:layout_marginBottom="@dimen/photoPageItemVideoBottomMargin" android:src="@drawable/normal_video" android:layout_alignParentBottom="true" />
+</RelativeLayout>

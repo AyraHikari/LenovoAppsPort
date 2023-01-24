@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <zui.widget.TextView android:textSize="@dimen/message_dialog_group_title_text_size" android:textColor="@color/message_dialog_group_title_text_color" android:gravity="start|center|top" android:id="@id/groupTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/message_dialog_group_title_bottom_padding" />
+    <LinearLayout android:orientation="vertical" android:id="@id/parentPanel" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:id="@id/divider" android:background="@drawable/dash_divider" android:layout_width="fill_parent" android:layout_height="@dimen/number_picker_x_divider_height_zui" android:layout_marginBottom="@dimen/message_dialog_paired_item_vertical_padding" android:layerType="software" />
+</LinearLayout>

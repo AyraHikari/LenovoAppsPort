@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@color/filtershow_categoryview_background" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="bottom" android:id="@id/looks_style_layout" android:paddingBottom="10.0dip" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="102.0dip" android:layout_marginLeft="79.0dip" android:layout_marginRight="79.0dip">
+        <TextView android:id="@id/classic_style" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/filter_classic" android:layout_weight="1.0" android:layout_alignParentBottom="true" style="@style/LooksTypeTxtStyle" />
+        <TextView android:id="@id/portrait_style" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/filter_portrait" android:layout_weight="1.0" android:layout_toRightOf="@id/classic_style" android:layout_alignParentBottom="true" style="@style/LooksTypeTxtStyle" />
+        <TextView android:id="@id/delicacy_style" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/filter_gourmet" android:layout_weight="1.0" android:layout_toRightOf="@id/portrait_style" android:layout_alignParentBottom="true" style="@style/LooksTypeTxtStyle" />
+        <TextView android:id="@id/movie_style" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/filter_movie" android:layout_weight="1.0" android:layout_toRightOf="@id/delicacy_style" android:layout_alignParentBottom="true" style="@style/LooksTypeTxtStyle" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/looks_style_layout">
+        <com.zui.gallery.filtershow.category.BouncyHScrollView android:id="@id/scroll" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="@dimen/category_panel_height">
+            <com.zui.gallery.filtershow.category.CategoryTrack android:id="@id/listItems" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_marginBottom="3.0dip" android:divider="@android:color/transparent" android:dividerPadding="18.0dip" />
+        </com.zui.gallery.filtershow.category.BouncyHScrollView>
+        <com.zui.gallery.filtershow.category.IconView android:id="@id/addButton" android:layout_width="@dimen/category_panel_height" android:layout_height="@dimen/category_panel_height" android:src="@drawable/filtershow_add" />
+    </LinearLayout>
+</LinearLayout>

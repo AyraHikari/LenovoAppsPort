@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:gravity="center" android:id="@id/layout1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:id="@id/layout_hour" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextClock android:textSize="@dimen/widget_time_size" android:textColor="#ffffffff" android:id="@id/text_hour" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="12" android:shadowColor="#33000000" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="10.0" android:format12Hour="hh" android:format24Hour="HH" android:fontFeatureSettings="tnum" android:textFontWeight="300" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/layout_minute" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/layout_hour">
+            <TextClock android:textSize="@dimen/widget_time_size" android:textColor="#ffffffff" android:id="@id/text_minute" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="12" android:shadowColor="#33000000" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="10.0" android:format12Hour=":mm" android:format24Hour=":mm" android:fontFeatureSettings="tnum" android:textFontWeight="300" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/layout_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginTop="18.0dip" android:layout_toRightOf="@id/layout_minute">
+            <TextClock android:textSize="15.0dip" android:textColor="#ffffffff" android:id="@id/text_week" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="周二" android:shadowColor="#33000000" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="10.0" android:format12Hour="EEE" android:format24Hour="EEE" android:fontFeatureSettings="tnum" />
+            <TextClock android:textSize="15.0dip" android:textColor="#ffffffff" android:id="@id/text_solar_calendar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="8月11日" android:shadowColor="#33000000" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="10.0" android:format12Hour="@string/widget_month" android:format24Hour="@string/widget_month" android:fontFeatureSettings="tnum" />
+        </LinearLayout>
+        <TextView android:textSize="15.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/text_lunar_calendar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginTop="13.0dip" android:text="辛丑年七月十七日" android:shadowColor="#33000000" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="10.0" android:layout_toRightOf="@id/layout_minute" android:layout_below="@id/layout_date" android:fontFeatureSettings="tnum" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider android:minWidth="@dimen/widget_wight" android:minHeight="@dimen/widget_height" android:updatePeriodMillis="8640000" android:initialLayout="@layout/activity_widget" android:configure="com.zui.gallery.widget.WidgetTransitActivity4x3" android:previewImage="@drawable/widget_preview_pad" android:widgetCategory="home_screen" android:widgetFeatures="configuration_optional|reconfigurable" android:targetCellWidth="@integer/widgetTargetCellWidth" android:targetCellHeight="@integer/widgetTargetCellHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

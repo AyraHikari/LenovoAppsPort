@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/filtershow_mainpanel_background" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/divider" android:layout_width="fill_parent" android:layout_height="25.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/divider">
+        <com.zui.gallery.filtershow.category.BouncyHScrollView android:id="@id/scroll_effect" android:scrollbars="none" android:layout_width="0.0dip" android:layout_height="@dimen/categorytrack_height" android:layout_weight="1.0">
+            <com.zui.gallery.filtershow.category.CategoryTrack android:id="@id/listItems_effect" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@android:color/transparent" android:dividerPadding="18.0dip" custom:iconSize="@dimen/category_panel_icon_size" />
+        </com.zui.gallery.filtershow.category.BouncyHScrollView>
+        <com.zui.gallery.filtershow.category.IconView android:id="@id/addButton_effect" android:layout_width="@dimen/category_panel_effect_height" android:layout_height="@dimen/category_panel_effect_height" android:src="@drawable/filtershow_add" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="localMakeLabelTitleOffset">0.0dip</dimen>
+    <dimen name="local_time_label_maker">8.0dip</dimen>
+    <dimen name="main_panel_container_width">120.0dip</dimen>
+</resources>

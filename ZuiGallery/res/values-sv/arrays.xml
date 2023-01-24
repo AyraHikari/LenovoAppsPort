@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="select_move_ways">
+        <item>Flytta</item>
+        <item>Kopiera</item>
+    </string-array>
+    <string-array name="week">
+        <item></item>
+        <item>Söndag</item>
+        <item>Måndag</item>
+        <item>Tisdag</item>
+        <item>Onsdag</item>
+        <item>Torsdag</item>
+        <item>Fredag</item>
+        <item>Lördag</item>
+    </string-array>
+</resources>

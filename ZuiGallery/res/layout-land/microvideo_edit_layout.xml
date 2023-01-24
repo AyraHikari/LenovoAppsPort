@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true">
+        <SurfaceView android:id="@id/surfaceView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+        <FrameLayout android:id="@id/black_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@color/black" />
+        <FrameLayout android:id="@id/pic_preview_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageView android:id="@id/pic_preview_back" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <ImageView android:id="@id/pic_preview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+    </RelativeLayout>
+    <LinearLayout android:id="@id/play_icon_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:id="@id/play_icon_image" android:background="@drawable/ic_control_play" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/action_bar" android:background="@drawable/video_trim_tbar_bj" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/edit_title_bar_height">
+        <LinearLayout android:id="@id/back_container" style="@style/VideoEditActionBarLayoutStyle">
+            <TextView android:textColor="@color/video_time" android:text="@string/back" style="@style/VideoEditActionBarLayoutStyle" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/done_container" android:layout_alignParentRight="true" style="@style/VideoEditActionBarLayoutStyle">
+            <TextView android:text="@string/done" style="@style/ActionBarTextStyle1" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/title_bar" android:background="@drawable/video_trim_bottom_bj" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_alignParentTop="true">
+        <TextView android:textSize="20.0dip" android:textColor="#ffe0e0f0" android:gravity="center" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/live_photo_text" android:layout_centerHorizontal="true" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/bottombar" android:background="@drawable/video_trim_bottom_bj" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <include layout="@layout/micro_operation_bar_layou" />
+    </LinearLayout>
+</RelativeLayout>

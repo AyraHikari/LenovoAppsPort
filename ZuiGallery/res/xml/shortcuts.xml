@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut android:icon="@drawable/ic_shortcut_photo" android:enabled="true" android:shortcutId="photo" android:shortcutShortLabel="@string/shortcut_photo" android:shortcutLongLabel="@string/shortcut_photo" android:shortcutDisabledMessage="@string/shortcut_photo">
+        <intent android:targetPackage="com.zui.gallery" android:action="com.zui.gallery.action.top.photo" android:targetClass="com.zui.gallery.app.GalleryActivity" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+</shortcuts>

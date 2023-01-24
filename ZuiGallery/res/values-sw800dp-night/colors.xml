@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="albumpage_title">#ccffffff</color>
+    <color name="continuous_doneBtn_color">#ffffffff</color>
+    <color name="continuous_doneBtn_enabled_color">#66ffffff</color>
+</resources>

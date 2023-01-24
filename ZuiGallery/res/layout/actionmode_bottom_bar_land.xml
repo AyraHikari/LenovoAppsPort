@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/bottom_actionmode_bar" android:background="@color/bottom_tab_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/tab_layout_land_bg" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/btn_share" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bottom_share_selector" android:text="@string/share" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/actionmode_text_size_small" android:textColor="@color/tab_text_selector" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/btn_add_to" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/albumset_add_icon" android:text="@string/album_add_to_folder" android:layout_weight="1.0" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/tab_text_selector" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/btn_add" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add" android:layout_weight="1.0" android:layout_marginStart="130.32999dip" />
+        <ImageView android:id="@id/add_to_privacy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/add_to_privacy" android:layout_weight="1.0" />
+        <RelativeLayout android:gravity="center" android:id="@id/delete_layout" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:id="@id/btn_delete" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bottom_delete_selector" android:text="@string/delete" />
+            <ImageView android:id="@id/btn_delete_anim_02" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/photo_bottom_delete_02" android:layout_alignBottom="@id/btn_delete" />
+            <ImageView android:id="@id/btn_delete_anim_01" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/photo_bottom_delete_01" android:layout_above="@id/btn_delete_anim_02" />
+            <TextView android:id="@id/txt_delete" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/delete" style="@style/BottomBarTextStyle" />
+        </RelativeLayout>
+        <TextView android:textSize="14.0dip" android:textColor="@color/tab_text_selector" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/btn_remove" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/album_remove_from_more" android:layout_weight="1.0" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/btn_img_remove" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bottom_delete_selector" android:layout_weight="1.0" android:layout_marginStart="130.0dip" />
+    </LinearLayout>
+</RelativeLayout>

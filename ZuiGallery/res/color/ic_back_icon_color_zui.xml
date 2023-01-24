@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:color="@color/ic_back_icon_pressed_zui" />
+    <item android:color="@color/ic_back_icon_default_zui" />
+</selector>

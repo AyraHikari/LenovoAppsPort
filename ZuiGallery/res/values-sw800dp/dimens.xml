@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="actionmode_text_size_small">18.0dip</dimen>
+    <dimen name="albumset_count_font_size">18.0dip</dimen>
+    <dimen name="albumset_slot_height">215.0dip</dimen>
+    <dimen name="albumset_slot_height_gap">40.0dip</dimen>
+    <dimen name="albumset_slot_width">175.0dip</dimen>
+    <dimen name="albumset_slot_width_gap">12.0dip</dimen>
+    <dimen name="albumset_title_font_size">18.0dip</dimen>
+    <dimen name="category_panel_effect_text_size">14.0dip</dimen>
+    <dimen name="categorytrack_width">70.0dip</dimen>
+    <dimen name="draw_seek_bar_slider_width">590.0dip</dimen>
+    <dimen name="filter_iconview_top">15.0dip</dimen>
+    <dimen name="local_time_album_label_background_height_land">2.3299866dip</dimen>
+    <dimen name="look_left">10.0px</dimen>
+    <dimen name="mainpanel_icon_size">32.0dip</dimen>
+    <dimen name="seektext_margin">0.0dip</dimen>
+    <dimen name="tab_height">60.0dip</dimen>
+    <dimen name="titleMainTextSizeSetAddPage">30.0dip</dimen>
+    <dimen name="title_right_text_size">18.0dip</dimen>
+    <dimen name="video_operation_bar_margin_bottom">30.0dip</dimen>
+    <dimen name="widget_time_size">50.0dip</dimen>
+</resources>

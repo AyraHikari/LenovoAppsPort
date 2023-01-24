@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="widgetLabel3x3">图库 3x3</string>
+    <string name="widgetLabel4x2">图库 2x2</string>
+</resources>

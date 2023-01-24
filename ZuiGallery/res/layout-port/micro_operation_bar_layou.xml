@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/controller_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/video_operation_bar_margin_bottom"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:videoType="http://schemas.android.com/apk/res-auto">
+    <com.zui.gallery.ui.videoedit.MicroviewOperationBar android:layout_gravity="center" android:id="@id/controller_view" android:layout_width="@dimen/micro_view_controller_bar_width" android:layout_height="@dimen/micro_view_controller_bar_height" videoType:type="slow" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/filter_show_main_panel_height" android:layout_below="@id/controller_view">
+        <ImageView android:id="@id/edit_cancel" android:layout_width="@dimen/mainpanel_icon_size" android:layout_height="@dimen/mainpanel_icon_size" android:src="@drawable/micro_view_edit_cancel" android:layout_centerVertical="true" android:layout_marginStart="39.0dip" android:layout_alignParentStart="true" />
+        <ImageView android:gravity="center" android:id="@id/edit_ok" android:layout_width="@dimen/mainpanel_icon_size" android:layout_height="@dimen/mainpanel_icon_size" android:src="@drawable/micro_view_edit_ok" android:layout_centerVertical="true" android:layout_marginEnd="39.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="delete_selection">
+        <item quantity="other">Eliminare gli elementi selezionati?</item>
+        <item quantity="one">Eliminare elemento selezionato?</item>
+    </plurals>
+    <plurals name="ingest_number_of_items_scanned">
+        <item quantity="other">%1$d elementi scansionati</item>
+        <item quantity="zero">%1$d elementi scansionati</item>
+        <item quantity="one">%1$d elemento scansionato</item>
+    </plurals>
+    <plurals name="ingest_number_of_items_selected">
+        <item quantity="other">%1$d elementi selezionati</item>
+        <item quantity="zero">%1$d elementi selezionati</item>
+        <item quantity="one">%1$d elemento selezionato</item>
+    </plurals>
+    <plurals name="make_albums_available_offline">
+        <item quantity="other">Rendi Album disponibili offline.</item>
+        <item quantity="one">Rendi album disponibile offline.</item>
+    </plurals>
+    <plurals name="number_of_albums_selected">
+        <item quantity="other">%1$d SC selezionato(i)</item>
+        <item quantity="zero">%1$d SC selezionato(i)</item>
+        <item quantity="one">%1$d SC selezionato(i)</item>
+    </plurals>
+    <plurals name="number_of_groups_selected">
+        <item quantity="other">%1$d SC selezionato(i)</item>
+        <item quantity="zero">%1$d SC selezionato(i)</item>
+        <item quantity="one">%1$d SC selezionato(i)</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">%1$d SC selezionato(i)</item>
+        <item quantity="zero">%1$d SC selezionato(i)</item>
+        <item quantity="one">%1$d SC selezionato(i)</item>
+    </plurals>
+    <plurals name="number_of_photos">
+        <item quantity="other">%1$d foto</item>
+        <item quantity="one">%1$d foto</item>
+    </plurals>
+    <plurals name="number_of_photos_selected">
+        <item quantity="other">%1$d foto selezionata(e)</item>
+        <item quantity="zero">%1$d foto selezionata(e)</item>
+        <item quantity="one">%1$d foto selezionata(e)</item>
+    </plurals>
+    <plurals name="pref_camera_timer_entry">
+        <item quantity="other">%d secondi</item>
+        <item quantity="one">1 secondo</item>
+    </plurals>
+</resources>

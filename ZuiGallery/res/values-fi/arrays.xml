@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="select_move_ways">
+        <item>Siirry</item>
+        <item>Kopioi</item>
+    </string-array>
+    <string-array name="week">
+        <item></item>
+        <item>Sunnuntai</item>
+        <item>Maanantai</item>
+        <item>Tiistai</item>
+        <item>Keskiviikko</item>
+        <item>Torstai</item>
+        <item>Perjantai</item>
+        <item>Lauantai</item>
+    </string-array>
+</resources>

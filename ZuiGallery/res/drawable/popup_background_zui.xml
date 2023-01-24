@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/dialog_radius_zui" />
+    <solid android:color="@color/overflow_menu_background_color" />
+    <padding android:top="@dimen/popup_window_padding_vertical_zui" android:bottom="@dimen/popup_window_padding_vertical_zui" />
+</shape>

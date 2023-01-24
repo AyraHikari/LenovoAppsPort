@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:right="-1.0dip">
+        <shape>
+            <solid android:color="#1affffff" />
+            <corners android:topLeftRadius="12.0dip" android:topRightRadius="@dimen/widget_round_value" android:bottomLeftRadius="12.0dip" android:bottomRightRadius="@dimen/widget_round_value" />
+            <stroke android:width="1.0dip" android:color="#0f000000" />
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/container" android:background="@color/default_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/fileListActionBar" android:layout_width="fill_parent" android:layout_height="@dimen/action_bar_area_height" layout="@layout/file_list_action_bar" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/trash_list_layout" android:layout_below="@id/fileListActionBar" />
+    <include android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/fileListActionBar" layout="@layout/privacy_no_photo" />
+</RelativeLayout>

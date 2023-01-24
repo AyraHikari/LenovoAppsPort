@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="classic_filtername">
+        <item>經典</item>
+        <item>拍立得</item>
+        <item>懷舊</item>
+        <item>雜志</item>
+        <item>盛夏</item>
+        <item>漫畫</item>
+        <item>老照片</item>
+        <item>黑白</item>
+    </string-array>
+    <string-array name="datePickerXMonth">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="datePickerXWeek">
+        <item>星期日</item>
+        <item>星期一</item>
+        <item>星期二</item>
+        <item>星期三</item>
+        <item>星期四</item>
+        <item>星期五</item>
+        <item>星期六</item>
+    </string-array>
+    <string-array name="delicacy_filtername">
+        <item>美味</item>
+        <item>焦糖</item>
+        <item>鮮艷</item>
+        <item>清凉</item>
+        <item>浪漫</item>
+        <item>野餐</item>
+        <item>明快</item>
+        <item>櫻花</item>
+    </string-array>
+    <string-array name="movie_filtername">
+        <item>初夏</item>
+        <item>邂逅</item>
+        <item>靜謐</item>
+        <item>黑金</item>
+        <item>初見</item>
+        <item>藍調</item>
+        <item>秋日</item>
+        <item>回忆</item>
+    </string-array>
+    <string-array name="portrait_filtername">
+        <item>自然</item>
+        <item>清新</item>
+        <item>甜美</item>
+        <item>日系</item>
+        <item>港風</item>
+        <item>復古</item>
+        <item>粉嫩</item>
+        <item>油畫</item>
+    </string-array>
+    <string-array name="select_move_ways">
+        <item>移動</item>
+        <item>複製</item>
+    </string-array>
+    <string-array name="video_filtername">
+        <item>青春</item>
+        <item>鮮艷</item>
+        <item>流金歲月</item>
+        <item>樱花</item>
+        <item>綠橙</item>
+        <item>晨曦</item>
+        <item>黑白</item>
+        <item>老電影</item>
+    </string-array>
+    <string-array name="week">
+        <item></item>
+        <item>星期日</item>
+        <item>星期一</item>
+        <item>星期二</item>
+        <item>星期三</item>
+        <item>星期四</item>
+        <item>星期五</item>
+        <item>星期六</item>
+    </string-array>
+</resources>

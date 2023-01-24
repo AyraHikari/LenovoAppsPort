@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/filtershow_categoryview_background" android:layout_width="58.0dip" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/color_Layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginStart="0.0dip">
+        <ImageView android:layout_gravity="center" android:id="@id/color_btn" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/filtershow_color_back_normal" />
+        <TextView android:textSize="10.0dip" android:textColor="@color/filtershow_textselector" android:gravity="center" android:id="@id/color_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="4.0dip" android:text="@string/draw_color" />
+    </LinearLayout>
+    <com.zui.gallery.filtershow.colorpicker.ColorHueViewDraw android:id="@id/ColorHueView" android:layout_width="632.0dip" android:layout_height="fill_parent" />
+</LinearLayout>

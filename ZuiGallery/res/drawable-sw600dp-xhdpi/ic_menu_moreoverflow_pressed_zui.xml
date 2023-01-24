@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/actionbar_icon_size" android:width="@dimen/actionbar_icon_size" android:viewportWidth="64.0" android:viewportHeight="64.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/ic_menu_overflow_pressed" android:pathData="M15,29c1.7,0 3,1.3 3,3c0,1.7 -1.3,3 -3,3s-3,-1.3 -3,-3C12,30.3 13.3,29 15,29zM32,29c1.7,0 3,1.3 3,3c0,1.7 -1.3,3 -3,3c-1.7,0 -3,-1.3 -3,-3C29,30.3 30.3,29 32,29zM49,29c1.7,0 3,1.3 3,3c0,1.7 -1.3,3 -3,3s-3,-1.3 -3,-3C46,30.3 47.3,29 49,29z" android:fillType="evenOdd" />
+</vector>

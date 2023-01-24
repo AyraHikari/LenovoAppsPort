@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/number_keyboard_num_layout" android:background="@drawable/keyboardx_layout_background" android:paddingTop="@dimen/number_keyboard_layout_padding_top" android:paddingBottom="@dimen/number_keyboard_layout_padding_bottom" android:layout_width="@dimen/number_keyboard_layout_width" android:layout_height="@dimen/number_keyboard_layout_height" android:layoutDirection="ltr" android:paddingStart="@dimen/number_keyboard_layout_padding_start" android:paddingEnd="@dimen/number_keyboard_layout_padding_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <Button android:id="@id/num_1" android:tag="1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="1" android:layout_weight="1.0" style="@style/number_keyboard_num_button_style" />
+        <Space android:layout_width="@dimen/number_keyboard_num_layout_interval" android:layout_height="wrap_content" />
+        <Button android:id="@id/num_2" android:tag="2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="2" android:layout_weight="1.0" style="@style/number_keyboard_num_button_style" />
+        <Space android:layout_width="@dimen/number_keyboard_num_layout_interval" android:layout_height="wrap_content" />
+        <Button android:id="@id/num_3" android:tag="3" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="3" android:layout_weight="1.0" style="@style/number_keyboard_num_button_style" />
+    </LinearLayout>
+    <Space android:layout_width="fill_parent" android:layout_height="@dimen/number_keyboard_num_layout_interval" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <Button android:id="@id/num_4" android:tag="4" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="4" android:layout_weight="1.0" style="@style/number_keyboard_num_button_style" />
+        <Space android:layout_width="@dimen/number_keyboard_num_layout_interval" android:layout_height="wrap_content" />
+        <Button android:id="@id/num_5" android:tag="5" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="5" android:layout_weight="1.0" style="@style/number_keyboard_num_button_style" />
+        <Space android:layout_width="@dimen/number_keyboard_num_layout_interval" android:layout_height="wrap_content" />
+        <Button android:id="@id/num_6" android:tag="6" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="6" android:layout_weight="1.0" style="@style/number_keyboard_num_button_style" />
+    </LinearLayout>
+    <Space android:layout_width="fill_parent" android:layout_height="@dimen/number_keyboard_num_layout_interval" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <Button android:id="@id/num_7" android:tag="7" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="7" android:layout_weight="1.0" style="@style/number_keyboard_num_button_style" />
+        <Space android:layout_width="@dimen/number_keyboard_num_layout_interval" android:layout_height="wrap_content" />
+        <Button android:id="@id/num_8" android:tag="8" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="8" android:layout_weight="1.0" style="@style/number_keyboard_num_button_style" />
+        <Space android:layout_width="@dimen/number_keyboard_num_layout_interval" android:layout_height="wrap_content" />
+        <Button android:id="@id/num_9" android:tag="9" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="9" android:layout_weight="1.0" style="@style/number_keyboard_num_button_style" />
+    </LinearLayout>
+    <Space android:layout_width="fill_parent" android:layout_height="@dimen/number_keyboard_num_layout_interval" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageButton android:gravity="center" android:id="@id/num_delete" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/keyboardx_view_keyboard_key_delete_icon" android:layout_weight="1.0" style="@style/number_keyboard_delete_button_style" />
+        <Space android:layout_width="@dimen/number_keyboard_num_layout_interval" android:layout_height="wrap_content" />
+        <Button android:id="@id/num_0" android:tag="0" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="0" android:layout_weight="1.0" style="@style/number_keyboard_num_button_style" />
+        <Space android:layout_width="@dimen/number_keyboard_num_layout_interval" android:layout_height="wrap_content" />
+        <Button android:id="@id/num_done" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/keyboardx_view_key_done_text" android:layout_weight="1.0" style="@style/number_keyboard_done_button_style" />
+    </LinearLayout>
+</LinearLayout>

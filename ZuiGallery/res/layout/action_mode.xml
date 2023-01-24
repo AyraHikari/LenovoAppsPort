@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/action_mode_title_bar" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/selection_cancel_container" style="@style/ActionModeLeftStyle">
+        <ImageView android:id="@id/selection_cancel" android:background="@drawable/action_mode_cancel_selector" android:layout_width="@dimen/action_icon_size" android:layout_height="@dimen/action_icon_size" android:layout_marginStart="@dimen/actionmode_marginstart_dimen" android:layout_marginEnd="0.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="start|center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" android:layout_toStartOf="@id/selection_select_all_container" android:layout_toEndOf="@id/selection_cancel_container">
+        <TextView android:textSize="@dimen/actionmode_text_size" android:textColor="@color/actionmode_title_color" android:ellipsize="end" android:id="@id/selection_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="@style/TabTitleTextStyle" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/selection_select_all_container" style="@style/ActionModeRightStyle">
+        <TextView android:textColor="@color/top_bar_text_selector" android:id="@id/selection_select_all" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/select_all" android:maxLines="1" style="@style/ActionModeTextButtonStyle" />
+    </LinearLayout>
+    <View android:background="@color/tab_devider_color" android:layout_width="fill_parent" android:layout_height="@dimen/split_line_height" android:layout_alignParentBottom="true" />
+</RelativeLayout>

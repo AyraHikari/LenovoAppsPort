@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:gravity="center" android:id="@id/layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ScrollView android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <RelativeLayout android:background="@color/widget_bg_color" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/widgetImage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/widget_activity_icon" android:scaleType="fitStart" android:layout_centerInParent="true" />
+                <Button android:textSize="16.0dip" android:textColor="@color/white2" android:id="@id/btnClose" android:background="@drawable/btn_widget_close" android:layout_width="210.0dip" android:layout_height="44.0dip" android:layout_marginBottom="36.0dip" android:text="@string/start_exploring" android:layout_alignBottom="@id/widgetImage" android:layout_centerHorizontal="true" style="@style/Widget.AppCompat.Button.Borderless" />
+            </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>
+</RelativeLayout>

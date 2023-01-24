@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/action_bar_area_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/image_click" android:background="@drawable/backup_selector_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/trash_title_image_left" android:layout_centerVertical="true" />
+    <TextView android:textSize="@dimen/trash_title_size" android:textColor="@color/trash_title_color" android:gravity="center" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/trash_title_left_margin" android:text="@string/trash_title" android:layout_toRightOf="@id/image_click" />
+    <ImageButton android:id="@id/action_mode" android:background="@drawable/localtime_icon_select_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/action_bar_margin_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <TextView android:textSize="@dimen/actionmode_text_size_small" android:textColor="@color/trash_title_color" android:gravity="center" android:id="@id/check_all" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="@dimen/action_bar_margin_right" android:text="@string/select_all" android:layout_alignParentRight="true" />
+</RelativeLayout>

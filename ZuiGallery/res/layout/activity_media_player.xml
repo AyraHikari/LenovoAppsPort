@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/movie_view_root" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <SurfaceView android:id="@id/surfaceView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/playButton" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/stop_chosen" android:layout_centerInParent="true" />
+    <RelativeLayout android:id="@id/player_title_bar" android:background="@drawable/player_bar_bg" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/movie_activity_action_bar_height">
+        <ImageView android:id="@id/player_back" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/player_backbt_selector" android:paddingStart="10.0dip" android:paddingEnd="12.0dip" />
+        <TextView android:textSize="@dimen/movie_title_view_text_size" android:textColor="@color/movie_title_view_text_color" android:gravity="center|left" android:id="@id/player_title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxLines="1" android:layout_toEndOf="@id/player_back" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/movie_activity_action_bar_height" android:layout_alignParentBottom="true">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/bottom_layout" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="@dimen/movie_bottom_view_text_size" android:textColor="@color/movie_bottom_view_text_color" android:gravity="center_vertical" android:id="@id/text_current" android:paddingLeft="20.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="00:00:00" android:includeFontPadding="false" />
+            <SeekBar android:id="@id/seekbar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:max="100" android:progressDrawable="@drawable/white_seekbar" android:thumb="@drawable/white_seekbar_thumb" android:includeFontPadding="false" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/movie_bottom_view_text_size" android:textColor="@color/movie_bottom_view_text_color" android:gravity="center_vertical" android:id="@id/text_total" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="00:00:00" android:includeFontPadding="false" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

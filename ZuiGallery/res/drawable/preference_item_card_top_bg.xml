@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <layer-list>
+            <item android:bottom="-2.0px">
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/preference_selected_background_zui" />
+                    <corners android:topLeftRadius="@dimen/preference_card_radius" android:topRightRadius="@dimen/preference_card_radius" />
+                    <stroke android:width="@dimen/preference_card_stroke_width" android:color="@color/preference_card_stroke_zui" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_focused="true" android:state_pressed="false">
+        <layer-list>
+            <item android:bottom="-2.0px">
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/preference_background_focused_not_pressed_zui" />
+                    <corners android:topLeftRadius="@dimen/preference_card_radius" android:topRightRadius="@dimen/preference_card_radius" />
+                    <stroke android:width="@dimen/preference_card_stroke_width" android:color="@color/preference_card_stroke_zui" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item>
+        <layer-list>
+            <item android:bottom="-2.0px">
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/preference_card_background_zui" />
+                    <corners android:topLeftRadius="@dimen/preference_card_radius" android:topRightRadius="@dimen/preference_card_radius" />
+                    <stroke android:width="@dimen/preference_card_stroke_width" android:color="@color/preference_card_stroke_zui" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

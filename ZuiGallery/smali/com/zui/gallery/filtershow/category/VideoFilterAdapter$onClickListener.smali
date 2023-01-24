@@ -1,0 +1,19 @@
+.class public interface abstract Lcom/zui/gallery/filtershow/category/VideoFilterAdapter$onClickListener;
+.super Ljava/lang/Object;
+.source "VideoFilterAdapter.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/zui/gallery/filtershow/category/VideoFilterAdapter;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "onClickListener"
+.end annotation
+
+
+# virtual methods
+.method public abstract onClick(I)V
+.end method

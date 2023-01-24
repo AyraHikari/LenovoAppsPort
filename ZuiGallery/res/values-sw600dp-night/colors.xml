@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bottom_tabbar_background">#ff0b0c13</color>
+    <color name="bottom_tabbar_background_horizontal">#ff0b0c13</color>
+    <color name="bottom_toolbar_background">#cc0b0c13</color>
+    <color name="bottom_toolbar_background_horizontal">#cc0b0c13</color>
+    <color name="dialog_divider_zui">#1fe0e0f0</color>
+    <color name="listview_divider_zui">#29e0e0f0</color>
+</resources>

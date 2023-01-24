@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/movie_view_root" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <VideoView android:id="@id/surface_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+    <RelativeLayout android:id="@id/player_title_bar" android:background="@drawable/player_bar_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="64.0dip">
+        <RelativeLayout android:gravity="center_vertical" android:id="@id/right_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/player_back" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/player_backbt_selector" android:paddingStart="10.0dip" android:paddingEnd="12.0dip" />
+            <RelativeLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginStart="5.0dip" android:layout_marginEnd="5.0dip" android:layout_toEndOf="@id/player_back">
+                <TextView android:textSize="@dimen/movie_title_view_text_size" android:textColor="@color/movie_title_view_text_color" android:id="@id/player_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_centerInParent="false" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

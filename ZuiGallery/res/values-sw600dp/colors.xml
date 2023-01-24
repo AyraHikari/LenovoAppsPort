@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bottom_tabbar_background">#fffafafa</color>
+    <color name="bottom_tabbar_background_horizontal">#fffafafa</color>
+    <color name="bottom_toolbar_background">#ccfafafa</color>
+    <color name="bottom_toolbar_background_horizontal">#ccfafafa</color>
+    <color name="continuous_doneBtn_color">#ff000000</color>
+    <color name="continuous_doneBtn_enabled_color">#99555454</color>
+    <color name="dash_divider_zui">#ffe5e5e5</color>
+    <color name="dialog_divider_zui">#ffe5e5e5</color>
+    <color name="listview_divider_zui">#ffe5e5e5</color>
+</resources>

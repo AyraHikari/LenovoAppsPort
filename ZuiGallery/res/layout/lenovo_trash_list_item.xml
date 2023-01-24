@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/item_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/img" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <View android:id="@id/view_selector" android:layout_width="fill_parent" android:layout_height="@dimen/trash_press_black_height" android:layout_alignParentBottom="true" />
+    <ImageView android:id="@id/action_mode_icon" android:background="@drawable/trash_selected" android:visibility="gone" android:layout_width="@dimen/trash_item_icon_size" android:layout_height="@dimen/trash_item_icon_size" android:layout_marginRight="@dimen/trash_item_icon_right" android:layout_marginBottom="@dimen/trash_item_icon_bottom" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <ImageView android:id="@id/un_selection_part" android:background="@drawable/trash_un_selected" android:visibility="gone" android:layout_width="@dimen/trash_item_icon_size" android:layout_height="@dimen/trash_item_icon_size" android:layout_marginRight="@dimen/trash_item_icon_right" android:layout_marginBottom="@dimen/trash_item_icon_bottom" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <RelativeLayout android:id="@id/visible_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/video_icon" android:visibility="gone" android:layout_width="@dimen/trash_item_video_size" android:layout_height="@dimen/trash_item_video_size" android:layout_marginLeft="@dimen/trash_item_video_left" android:layout_marginTop="@dimen/trash_item_video_top" android:src="@drawable/normal_video" android:layout_alignParentTop="true" />
+        <ImageView android:id="@id/video_HDR_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/trash_item_video_left" android:layout_marginTop="@dimen/trash_item_video_top" android:src="@drawable/trash_video_hdr" android:layout_alignParentTop="true" />
+        <TextView android:textSize="@dimen/trash_item_day_size" android:textColor="@color/white2" android:id="@id/left_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/trash_item_day_left" android:layout_marginBottom="@dimen/trash_item_day_bottom" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</RelativeLayout>

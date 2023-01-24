@@ -1,0 +1,137 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: ZuiGallery.apk
+compressionType: false
+doNotCompress:
+- resources.arsc
+- META-INF/androidx.activity_activity-ktx.version
+- META-INF/androidx.activity_activity.version
+- META-INF/androidx.appcompat_appcompat-resources.version
+- META-INF/androidx.appcompat_appcompat.version
+- META-INF/androidx.arch.core_core-runtime.version
+- META-INF/androidx.asynclayoutinflater_asynclayoutinflater.version
+- META-INF/androidx.coordinatorlayout_coordinatorlayout.version
+- META-INF/androidx.core_core-ktx.version
+- META-INF/androidx.core_core.version
+- META-INF/androidx.cursoradapter_cursoradapter.version
+- META-INF/androidx.customview_customview.version
+- META-INF/androidx.documentfile_documentfile.version
+- META-INF/androidx.drawerlayout_drawerlayout.version
+- META-INF/androidx.fragment_fragment-ktx.version
+- META-INF/androidx.fragment_fragment.version
+- META-INF/androidx.interpolator_interpolator.version
+- META-INF/androidx.legacy_legacy-support-core-ui.version
+- META-INF/androidx.legacy_legacy-support-core-utils.version
+- META-INF/androidx.lifecycle_lifecycle-extensions.version
+- META-INF/androidx.lifecycle_lifecycle-livedata-core-ktx.version
+- META-INF/androidx.lifecycle_lifecycle-livedata-core.version
+- META-INF/androidx.lifecycle_lifecycle-livedata.version
+- META-INF/androidx.lifecycle_lifecycle-process.version
+- META-INF/androidx.lifecycle_lifecycle-runtime-ktx.version
+- META-INF/androidx.lifecycle_lifecycle-runtime.version
+- META-INF/androidx.lifecycle_lifecycle-service.version
+- META-INF/androidx.lifecycle_lifecycle-viewmodel-ktx.version
+- META-INF/androidx.lifecycle_lifecycle-viewmodel-savedstate.version
+- META-INF/androidx.lifecycle_lifecycle-viewmodel.version
+- META-INF/androidx.loader_loader.version
+- META-INF/androidx.localbroadcastmanager_localbroadcastmanager.version
+- META-INF/androidx.print_print.version
+- META-INF/androidx.recyclerview_recyclerview.version
+- META-INF/androidx.savedstate_savedstate.version
+- META-INF/androidx.slidingpanelayout_slidingpanelayout.version
+- META-INF/androidx.swiperefreshlayout_swiperefreshlayout.version
+- META-INF/androidx.vectordrawable_vectordrawable-animated.version
+- META-INF/androidx.vectordrawable_vectordrawable.version
+- META-INF/androidx.versionedparcelable_versionedparcelable.version
+- META-INF/androidx.viewpager_viewpager.version
+- assets/effectsdkdemo.lic
+- assets/meishe20.lic
+- assets/captionstyle/38FE89B8-2F8B-4060-A26D-47750C9080AC.lic
+- png
+- assets/captionstyle/3E7A75CF-0A5E-4628-B0F6-65AF958DF6E7.lic
+- assets/captionstyle/43CC66FA-6BA5-43D1-B2F5-79BE25F2AC1F.lic
+- assets/captionstyle/9BD8C0C7-F875-450B-B95F-B50DAA053C35.lic
+- assets/captionstyle/A7F0E96E-6C96-4691-8ADE-C16686A1B6FA.lic
+- assets/captionstyle/C7CF7D6F-3237-414F-BCCB-504AAEE1CBA6.lic
+- jpg
+- assets/delicacyfilter/02B33530-8663-4A01-A6F1-C9DAB3322590.lic
+- assets/delicacyfilter/3239C09E-69F6-4437-B287-16FDEAB21381.lic
+- assets/delicacyfilter/587A6214-89A6-49AC-99F0-2C3E47FF30A8.lic
+- assets/delicacyfilter/6BDB176F-D105-49A7-98D2-3A0D98103F2C.lic
+- assets/delicacyfilter/7E7A6727-24EA-4351-B2B2-54CEC8D8B641.lic
+- assets/delicacyfilter/98E1A508-3506-4C23-A3AD-30E3F2B63FF7.lic
+- assets/delicacyfilter/D23924E0-BC5A-4D38-91B9-2ABDBE9E4476.lic
+- assets/delicacyfilter/D267ADB3-2A58-434F-A805-851AAB9DAE05.lic
+- assets/filter/2DB2FE38-02BF-4D25-BE25-78A1B2771142.lic
+- assets/filter/394EB525-1B7A-4AA1-BBAD-3FD75527A60C.lic
+- assets/filter/6A226E39-A423-4F4F-92EF-9275D0CDD2EF.lic
+- assets/filter/73844D15-405B-4B3F-AC71-403B7E069166.lic
+- assets/filter/8E678DEA-1792-47E6-9705-B125D72AADD2.lic
+- assets/filter/971C84F9-4E05-441E-A724-17096B3D1CBD.lic
+- assets/filter/DE535DD7-91A3-4AC2-89DE-2BA94C32BFB2.lic
+- assets/filter/F4071666-225C-4ACE-B0E5-60C9F7E940F1.lic
+- assets/moviefilter/12BB667E-32CC-4511-BB3E-07BE054A2896.lic
+- assets/moviefilter/4EFE3455-C58D-499C-B311-D445F752D567.lic
+- assets/moviefilter/9FBB0802-E420-4AEB-BA06-2CBB1E775F7F.lic
+- assets/moviefilter/B3E53F0E-BE67-4A2D-AEC8-CF5F8E064EF1.lic
+- assets/moviefilter/C065B295-CDAE-490A-8B21-A4F0AF7A2A39.lic
+- assets/moviefilter/C6A3E31A-E714-4909-9438-91428F9F8B84.lic
+- assets/moviefilter/F0BC6FFE-DF82-460D-8DD2-B28DE56E1894.lic
+- assets/moviefilter/F985E148-EB98-4944-8AEC-A273D2EA7DDD.lic
+- assets/portraitfilter/978E899A-92C2-4257-9E78-CDB7E20E97CF.lic
+- assets/portraitfilter/BF55FC38-0BAD-470A-8F07-E2E6685798C5.lic
+- assets/portraitfilter/C8C90F0B-2120-4D1A-A538-F59BA39D8F52.lic
+- assets/portraitfilter/CAB83F53-753C-4CA5-B5AB-02DFB5E36764.lic
+- assets/portraitfilter/D61B2771-819A-44EB-8C6B-D86803714429.lic
+- assets/portraitfilter/D9226363-B1E4-4144-880A-EDAB6ED2E654.lic
+- assets/portraitfilter/EAB2B678-ED68-4836-BFE7-359BFBA015B9.lic
+- assets/portraitfilter/FB92B014-9CB3-458C-93E7-5005332BD8DA.lic
+- assets/videofilter/163DE520-95FC-4CF3-B847-C43F1D474587.lic
+- assets/videofilter/394EB525-1B7A-4AA1-BBAD-3FD75527A60C.lic
+- assets/videofilter/6A226E39-A423-4F4F-92EF-9275D0CDD2EF.lic
+- assets/videofilter/7E7A6727-24EA-4351-B2B2-54CEC8D8B641.lic
+- assets/videofilter/8B952A30-CD2F-4E77-ABED-EC1DDF4AA67E.lic
+- assets/videofilter/C9CE10F1-7C77-423C-BB7F-7F090C33D5C5.lic
+- assets/videofilter/D23924E0-BC5A-4D38-91B9-2ABDBE9E4476.lic
+- assets/videofilter/FAE50247-F14C-40CE-AD43-29CA3E604838.lic
+- lib/arm64-v8a/libNvStreamingSdkCore.so
+- lib/arm64-v8a/libconvert_jni.so
+- lib/arm64-v8a/libjni_eglfence.so
+- lib/arm64-v8a/libjni_filtershow_filters.so
+- lib/arm64-v8a/libjni_jpegutil.so
+- lib/arm64-v8a/libpano_video_renderer.so
+- lib/arm64-v8a/libpanorenderer.so
+- lib/arm64-v8a/libpl_droidsonroids_gif.so
+- lib/armeabi-v7a/libNvStreamingSdkCore.so
+- lib/armeabi-v7a/libjni_eglfence.so
+- lib/armeabi-v7a/libjni_filtershow_filters.so
+- lib/armeabi-v7a/libjni_jpegutil.so
+- lib/armeabi-v7a/libpano_video_renderer.so
+- lib/armeabi-v7a/libpanorenderer.so
+- lib/armeabi-v7a/libpl_droidsonroids_gif.so
+- wav
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '28'
+  targetSdkVersion: '31'
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  LICENSE-junit.txt: '8'
+  com/zui/cloudservice/lpcs/ILPCSManager.aidl: '8'
+  com/zui/cloudservice/lpcs/ILPCSResultCallback.aidl: '8'
+  com/zui/cloudservice/lpcs/ILPCSStatObserver.aidl: '8'
+  com/zui/cloudservice/lpcs/LPCSResult.aidl: '0'
+  com/zui/xlog/IAnalytics.aidl: '8'
+  junit/runner/logo.gif: '0'
+  junit/runner/smalllogo.gif: '0'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.7.0
+versionInfo:
+  versionCode: '23510174'
+  versionName: 13.5.1.0174.220803.8222e3a

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/image_click" android:background="@drawable/backup_selector_white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textSize="20.0sp" android:textColor="@color/white2" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+</RelativeLayout>

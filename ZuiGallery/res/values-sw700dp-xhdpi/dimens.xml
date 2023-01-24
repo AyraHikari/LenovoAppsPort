@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="album_set_page_press_h">0.0dip</dimen>
+    <dimen name="albumset_slot_height">205.0dip</dimen>
+    <dimen name="albumset_slot_height_gap">40.0dip</dimen>
+    <dimen name="albumset_slot_width">165.0dip</dimen>
+    <dimen name="continuousShootingImageSize">40.0dip</dimen>
+    <dimen name="continuousShootingMarginBottom">15.0dip</dimen>
+    <dimen name="widget_height">330.0dip</dimen>
+    <dimen name="widget_wight">330.0dip</dimen>
+    <dimen name="widget_error_height_y">66.0dip</dimen>
+    <dimen name="widget_error_width_x">8.0dip</dimen>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/mainView" android:background="@color/filtershow_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/editPanel">
+        <com.zui.gallery.filtershow.imageshow.ImageShowDucal android:orientation="vertical" android:id="@id/imageshow_duca" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.zui.gallery.filtershow.ui.FocusRingView android:id="@id/focus_ring" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/editPanel" android:background="#ff212120" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/filtershow_bottom_panel_height_seekbar">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/seekbarContainer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/filtershow_bottom_panel_seekbar_margin" android:layout_marginRight="@dimen/filtershow_bottom_panel_seekbar_margin">
+                <TextView android:textSize="15.0dip" android:textColor="@color/filtershow_stateview_text" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/blur_level" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                    <SeekBar android:id="@id/primarySeekBar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/filtershow_bottom_panel_seekbar_margin" android:maxWidth="240.0dip" android:max="6" android:layout_weight="1.0" android:min="0" style="@style/DepthPhotoEditorSeekBarStyle" />
+                    <TextView android:textColor="@color/filtershow_crop_image_text_selected_color" android:layout_gravity="center_horizontal" android:id="@id/blur_level" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/filtershow_bottom_panel_height_confirm">
+            <TextView android:textColor="@color/filtershow_tab_text_selector" android:gravity="center" android:id="@id/cancelEdit" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/cancel" android:layout_weight="1.0" />
+            <TextView android:textColor="@color/filtershow_tab_text_selector" android:gravity="center" android:id="@id/saveEdit" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/save" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

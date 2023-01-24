@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="no_photos_text_color">#ff999999</color>
+    <color name="photo_text_color_hi">#ff596dff</color>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="album_set_page_press_h">29.0dip</dimen>
+    <dimen name="albumset_slot_width_gap_land">35.0dip</dimen>
+    <dimen name="widget_error_height_y">36.0dip</dimen>
+    <dimen name="widget_error_width_x">85.0dip</dimen>
+</resources>

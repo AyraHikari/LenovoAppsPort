@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="delete_selection">
+        <item quantity="other">Radera markerade objekt?</item>
+        <item quantity="one">Radera markerat objekt?</item>
+    </plurals>
+    <plurals name="ingest_number_of_items_scanned">
+        <item quantity="other">%1$d poster skannade</item>
+        <item quantity="zero">%1$d poster skannade</item>
+        <item quantity="one">%1$d poster skannade</item>
+    </plurals>
+    <plurals name="ingest_number_of_items_selected">
+        <item quantity="other">%1$d poster utvalda</item>
+        <item quantity="zero">%1$d poster utvalda</item>
+        <item quantity="one">%1$d poster utvalda</item>
+    </plurals>
+    <plurals name="make_albums_available_offline">
+        <item quantity="other">Görs tillgängliga online.</item>
+        <item quantity="one">Gör album tillgängliga online.</item>
+    </plurals>
+    <plurals name="number_of_albums_selected">
+        <item quantity="other">%1$d valda</item>
+        <item quantity="zero">%1$d valda</item>
+        <item quantity="one">%1$d valda</item>
+    </plurals>
+    <plurals name="number_of_groups_selected">
+        <item quantity="other">%1$d valda</item>
+        <item quantity="zero">%1$d valda</item>
+        <item quantity="one">%1$d valda</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">%1$d valda</item>
+        <item quantity="zero">%1$d valda</item>
+        <item quantity="one">%1$d valda</item>
+    </plurals>
+    <plurals name="number_of_photos">
+        <item quantity="other">%1$d fotografier</item>
+        <item quantity="one">%1$d fotografi</item>
+    </plurals>
+    <plurals name="number_of_photos_selected">
+        <item quantity="other">”%1$d fotografier valda”</item>
+        <item quantity="zero">”%1$d fotografier valda”</item>
+        <item quantity="one">”%1$d fotografier valda”</item>
+    </plurals>
+    <plurals name="pref_camera_timer_entry">
+        <item quantity="other">%d sekunder</item>
+        <item quantity="one">1 sekund</item>
+    </plurals>
+</resources>

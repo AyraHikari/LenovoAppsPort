@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="delete_selection">
+        <item quantity="other">Slet valgte elementer?</item>
+        <item quantity="one">Slet det valgte element?</item>
+    </plurals>
+    <plurals name="ingest_number_of_items_scanned">
+        <item quantity="other">%1$d elementer scannet</item>
+        <item quantity="zero">%1$d elementer scannet</item>
+        <item quantity="one">%1$d element scannet</item>
+    </plurals>
+    <plurals name="ingest_number_of_items_selected">
+        <item quantity="other">%1$d elementer valgt</item>
+        <item quantity="zero">%1$d elementer valgt</item>
+        <item quantity="one">%1$d element valgt</item>
+    </plurals>
+    <plurals name="make_albums_available_offline">
+        <item quantity="other">Gør albummer tilgængelige offline.</item>
+        <item quantity="one">Gør album tilgængelige offline.</item>
+    </plurals>
+    <plurals name="number_of_albums_selected">
+        <item quantity="other">%1$d valgt</item>
+        <item quantity="zero">%1$d valgt</item>
+        <item quantity="one">%1$d valgt</item>
+    </plurals>
+    <plurals name="number_of_groups_selected">
+        <item quantity="other">%1$d valgt</item>
+        <item quantity="zero">%1$d valgt</item>
+        <item quantity="one">%1$d valgt</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">%1$d valgt</item>
+        <item quantity="zero">%1$d valgt</item>
+        <item quantity="one">%1$d valgt</item>
+    </plurals>
+    <plurals name="number_of_photos">
+        <item quantity="other">%1$d billeder</item>
+        <item quantity="one">%1$d billede</item>
+    </plurals>
+    <plurals name="number_of_photos_selected">
+        <item quantity="other">%1$d billede(r) valgt</item>
+        <item quantity="zero">%1$d billede(r) valgt</item>
+        <item quantity="one">%1$d billede(r) valgt</item>
+    </plurals>
+    <plurals name="pref_camera_timer_entry">
+        <item quantity="other">%d sekunder</item>
+        <item quantity="one">1 sekund</item>
+    </plurals>
+</resources>

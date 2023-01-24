@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/fullscreen_back_button" android:src="@drawable/quantum_ic_close_white_24" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" style="@style/ControlButton" />
+    <ImageButton android:id="@id/info_button" android:src="@drawable/quantum_ic_info_white_24" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:alpha="0.65" style="@style/ControlButton" />
+    <LinearLayout android:id="@id/control_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+        <ImageButton android:id="@id/vr_mode_button" android:src="@drawable/quantum_ic_cardboard_white_24" style="@style/ControlButton" />
+        <ImageButton android:id="@id/fullscreen_button" android:src="@drawable/quantum_ic_fullscreen_white_24" style="@style/ControlButton" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="delete_selection">
+        <item quantity="other">選択したアイテムを削除しますか？</item>
+        <item quantity="one">選択したアイテムを削除しますか？</item>
+    </plurals>
+    <plurals name="ingest_number_of_items_scanned">
+        <item quantity="other">%1$dアイテムをスキャン</item>
+        <item quantity="zero">%1$dアイテムをスキャン</item>
+        <item quantity="one">%1$dアイテムスキャン</item>
+    </plurals>
+    <plurals name="ingest_number_of_items_selected">
+        <item quantity="other">%1$dアイテムを選択</item>
+        <item quantity="zero">%1$dアイテムを選択</item>
+        <item quantity="one">%1$dアイテム選択</item>
+    </plurals>
+    <plurals name="make_albums_available_offline">
+        <item quantity="other">利用可能なアルバムをオフラインに。</item>
+        <item quantity="one">利用可能なアルバムをオフラインに。</item>
+    </plurals>
+    <plurals name="number_of_albums_selected">
+        <item quantity="other">%1$dが選択されました</item>
+        <item quantity="zero">%1$dが選択されました</item>
+        <item quantity="one">%1$dが選択されました</item>
+    </plurals>
+    <plurals name="number_of_groups_selected">
+        <item quantity="other">%1$dが選択されました</item>
+        <item quantity="zero">%1$dが選択されました</item>
+        <item quantity="one">%1$dが選択されました</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">%1$dが選択されました</item>
+        <item quantity="zero">%1$dが選択されました</item>
+        <item quantity="one">%1$dが選択されました</item>
+    </plurals>
+    <plurals name="number_of_photos">
+        <item quantity="other">%1$d写真</item>
+        <item quantity="one">%1$d写真</item>
+    </plurals>
+    <plurals name="number_of_photos_selected">
+        <item quantity="other">%1$d写真が選択されました</item>
+        <item quantity="zero">%1$d写真が選択されました</item>
+        <item quantity="one">%1$d写真が選択されました</item>
+    </plurals>
+    <plurals name="pref_camera_timer_entry">
+        <item quantity="other">%d秒</item>
+        <item quantity="one">1秒</item>
+    </plurals>
+</resources>

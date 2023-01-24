@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="local_time_album_cols_port">5</integer>
+</resources>

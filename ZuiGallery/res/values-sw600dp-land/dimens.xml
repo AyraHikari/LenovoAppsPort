@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="categorytrack_height">70.0dip</dimen>
+    <dimen name="categorytrack_width">58.0dip</dimen>
+    <dimen name="draw_seek_bar_slider_width">300.0dip</dimen>
+    <dimen name="filter_iconview_top">0.0dip</dimen>
+    <dimen name="look_left">0.0px</dimen>
+    <dimen name="main_panel_container_pad_w">120.0dip</dimen>
+    <dimen name="main_panel_container_width">180.0dip</dimen>
+    <dimen name="main_panel_filter_pad_w">58.0dip</dimen>
+    <dimen name="seektext_margin">-7.0dip</dimen>
+    <dimen name="top_margin_name">95.0px</dimen>
+    <dimen name="trash_arrow_margin_right_x">115.0dip</dimen>
+    <dimen name="trash_arrow_width">18.0dip</dimen>
+    <dimen name="trash_count_margin_arraw">15.0dip</dimen>
+    <dimen name="video_operation_bar_margin_bottom">20.0dip</dimen>
+    <dimen name="videofilteritem_top">22.0dip</dimen>
+    <item type="dimen" name="widgetBottomMargin">0.07</item>
+    <dimen name="widgetButtonMarginBottom">13.0dip</dimen>
+    <dimen name="widgetButtonMarginLeft">6.0dip</dimen>
+    <item type="dimen" name="widgetIconHeight">0.86</item>
+    <item type="dimen" name="widgetIconWidth">0.46</item>
+    <item type="dimen" name="widgetLeftMargin">0.17</item>
+    <item type="dimen" name="widgetRightMargin">0.17</item>
+    <item type="dimen" name="widgetTimeHeight">0.86</item>
+    <item type="dimen" name="widgetTimeWidth">0.2</item>
+    <dimen name="widget_margin_left">-61.0dip</dimen>
+    <dimen name="widget_margin_top">-10.0dip</dimen>
+    <dimen name="widget_minutes_margin_top">-9.0dip</dimen>
+    <dimen name="widget_time_size">46.0dip</dimen>
+    <dimen name="controller_bar_height">72.0dip</dimen>
+    <dimen name="controller_space_height">120.0dip</dimen>
+    <dimen name="slow_bar_space_height">25.0dip</dimen>
+</resources>

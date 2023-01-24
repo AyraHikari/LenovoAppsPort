@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="delete_selection">
+        <item quantity="other">Geselecteerde items verwijderen?</item>
+        <item quantity="one">Wil je het geselecteerde item verwijderen?</item>
+    </plurals>
+    <plurals name="ingest_number_of_items_scanned">
+        <item quantity="other">%1$d items gescand</item>
+        <item quantity="zero">%1$d items gescand</item>
+        <item quantity="one">%1$d item gescand</item>
+    </plurals>
+    <plurals name="ingest_number_of_items_selected">
+        <item quantity="other">%1$d items geselecteerd</item>
+        <item quantity="zero">%1$d items geselecteerd</item>
+        <item quantity="one">%1$d item geselecteerd</item>
+    </plurals>
+    <plurals name="make_albums_available_offline">
+        <item quantity="other">Albums worden offline beschikbaar gemaakt.</item>
+        <item quantity="one">Album offline beschikbaar maken.</item>
+    </plurals>
+    <plurals name="number_of_albums_selected">
+        <item quantity="other">%1$d geselecteerd</item>
+        <item quantity="zero">%1$d geselecteerd</item>
+        <item quantity="one">%1$d geselecteerd</item>
+    </plurals>
+    <plurals name="number_of_groups_selected">
+        <item quantity="other">%1$d geselecteerd</item>
+        <item quantity="zero">%1$d geselecteerd</item>
+        <item quantity="one">%1$d geselecteerd</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">%1$d geselecteerd</item>
+        <item quantity="zero">%1$d geselecteerd</item>
+        <item quantity="one">%1$d geselecteerd</item>
+    </plurals>
+    <plurals name="number_of_photos">
+        <item quantity="other">"%1$d foto's"</item>
+        <item quantity="one">%1$d foto</item>
+    </plurals>
+    <plurals name="number_of_photos_selected">
+        <item quantity="other">"‘%1$d foto('s) geselecteerd’"</item>
+        <item quantity="zero">"‘%1$d foto('s) geselecteerd’"</item>
+        <item quantity="one">"‘%1$d foto('s) geselecteerd’"</item>
+    </plurals>
+    <plurals name="pref_camera_timer_entry">
+        <item quantity="other">%d seconden</item>
+        <item quantity="one">1 seconde</item>
+    </plurals>
+</resources>

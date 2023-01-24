@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/privacy_empty_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/no_photo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/trashEmptyMarginTop" android:src="@drawable/empty_icon" />
+    <TextView android:textSize="@dimen/no_photos_text_size" android:textColor="@color/no_photos_text_color" android:id="@id/no_photo_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_photos" android:layout_below="@id/not_photo" />
+    <TextView android:textSize="@dimen/album_count_font_size" android:textColor="@color/no_photos_text_color" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="25.0dip" android:text="@string/privacy_guide" android:layout_below="@id/no_photo_txt" />
+</LinearLayout>

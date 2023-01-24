@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="31" android:compileSdkVersionCodename="12" package="com.zui.gallery" platformBuildVersionCode="31" platformBuildVersionName="12">
+    <original-package android:name="com.zui.gallery"/>
+    <permission android:name="com.zui.gallery.permission.WRITE_GALLERY_DATA" android:protectionLevel="signatureOrSystem"/>
+    <permission android:name="com.zui.gallery.permission.READ_GALLERY_DATA" android:protectionLevel="signatureOrSystem"/>
+    <permission android:label="@string/app_name" android:name="com.zui.gallery.permission.OPEN_PRIVACY_GALLERY" android:protectionLevel="signatureOrSystem"/>
+    <uses-permission android:name="com.zui.gallery.permission.OPEN_PRIVACY_GALLERY"/>
+    <uses-permission android:name="com.zui.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.zui.cloudservice.ALBUM_PERMISSION"/>
+    <uses-permission android:name="com.lenovo.leos.cloud.sync.ALBUM_PERMISSION"/>
+    <uses-permission android:name="android.permission.ACCESS_ALL_DOWNLOADS"/>
+    <uses-permission android:name="android.permission.NFC"/>
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="com.zui.safecenter.permission.READ_LESAFE_DATA"/>
+    <uses-permission android:name="com.zui.safecenter.permission.WRITE_LESAFE_DATA"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="com.zui.xlog.service"/>
+    <uses-permission android:name="android.permission.GAT_TASKS"/>
+    <uses-permission android:name="com.zui.gallery.permission.WRITE_GALLERY_DATA"/>
+    <uses-permission android:name="com.zui.gallery.permission.READ_GALLERY_DATA"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="com.zui.cloudservice.OPTION_QUERY"/>
+    <uses-permission android:name="com.lenovo.leos.cloud.sync.OPTION_QUERY"/>
+    <uses-permission android:name="android.permission.READ_DEVICE_CONFIG"/>
+    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION"/>
+    <uses-permission android:name="com.lenovo.privacyspace.permission.VERIFICATION"/>
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:smallScreens="false"/>
+    <meta-data android:name="com.motorola.allow_activities_on_small_external_display" android:value="false"/>
+    <queries>
+        <package android:name="com.zui.cloudservice"/>
+        <package android:name="com.lenovo.leos.cloud.sync"/>
+        <package android:name="com.zui.wallpapercropper"/>
+        <package android:name="com.zui.launcher"/>
+    </queries>
+    <uses-permission android:name="com.zui.wifip2p.permission.RemoteApiService"/>
+    <application android:allowBackup="false" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:extractNativeLibs="false" android:hardwareAccelerated="true" android:icon="@mipmap/ic_launcher_gallery" android:label="@string/app_name" android:largeHeap="true" android:name="com.zui.gallery.app.GalleryAppImpl" android:resizeableActivity="true" android:restoreAnyVersion="true" android:supportsRtl="true" android:theme="@style/Theme.Gallery">
+        <meta-data android:name="com.zui.gallery.privacygroup.EncryptGlideModule" android:value="GlideModule"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:defaultHeight="500.0dip" android:defaultWidth="600.0dip" android:exported="true" android:icon="@mipmap/ic_launcher_gallery" android:label="@string/app_name" android:name="com.zui.gallery.app.GalleryActivity" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.APP_GALLERY"/>
+                <category android:name="com.zui.launcher.intent.category.ZUI_LAUNCHER"/>
+            </intent-filter>
+            <meta-data android:name="zui.launcher.key" android:value="zuigallery"/>
+            <intent-filter>
+                <action android:name="android.intent.action.GET_CONTENT"/>
+                <category android:name="android.intent.category.OPENABLE"/>
+                <data android:mimeType="vnd.android.cursor.dir/image"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.GET_CONTENT"/>
+                <category android:name="android.intent.category.OPENABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+                <data android:mimeType="video/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PICK"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+                <data android:mimeType="video/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PICK"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.dir/image"/>
+                <data android:mimeType="vnd.android.cursor.dir/video"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.dir/image"/>
+                <data android:mimeType="vnd.android.cursor.dir/video"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="com.android.camera.action.REVIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:scheme="content"/>
+                <data android:scheme="file"/>
+                <data android:mimeType="image/bmp"/>
+                <data android:mimeType="image/jpeg"/>
+                <data android:mimeType="image/gif"/>
+                <data android:mimeType="image/png"/>
+                <data android:mimeType="image/webp"/>
+                <data android:mimeType="image/x-ms-bmp"/>
+                <data android:mimeType="image/vnd.wap.wbmp"/>
+                <data android:mimeType="application/vnd.google.panorama360+jpg"/>
+                <data android:mimeType="image/x-adobe-dng"/>
+                <data android:mimeType="image/x-canon-cr2"/>
+                <data android:mimeType="image/x-nikon-nef"/>
+                <data android:mimeType="image/x-nikon-nrw"/>
+                <data android:mimeType="image/x-sony-arw"/>
+                <data android:mimeType="image/x-panasonic-rw2"/>
+                <data android:mimeType="image/x-olympus-orf"/>
+                <data android:mimeType="image/x-fuji-raf"/>
+                <data android:mimeType="image/x-pentax-pef"/>
+                <data android:mimeType="image/x-samsung-srw"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.camera.action.REVIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:scheme="content"/>
+                <data android:scheme="file"/>
+                <data android:mimeType="video/mpeg4"/>
+                <data android:mimeType="video/mp4"/>
+                <data android:mimeType="video/3gp"/>
+                <data android:mimeType="video/3gpp"/>
+                <data android:mimeType="video/3gpp2"/>
+                <data android:mimeType="application/sdp"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.zui.gallery.action.GET_CONTENT"/>
+                <category android:name="android.intent.category.OPENABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+                <data android:mimeType="video/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+            </intent-filter>
+            <meta-data android:name="android.app.shortcuts" android:resource="@xml/shortcuts"/>
+        </activity>
+        <activity-alias android:configChanges="keyboardHidden|orientation|screenSize" android:exported="true" android:icon="@mipmap/ic_launcher_gallery" android:label="@string/app_name" android:name="com.cooliris.media.Gallery" android:targetActivity="com.zui.gallery.app.GalleryActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity-alias>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:icon="@drawable/gallery_video_icn" android:label="@string/movie_view_label" android:name="com.zui.gallery.app.MovieActivity" android:theme="@style/Theme.Zui.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="com.zui.gallery.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="file"/>
+                <data android:scheme="content"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:scheme="ftp"/>
+                <data android:host="*"/>
+                <data android:pathPattern=".*\\.VOB"/>
+                <data android:pathPattern=".*\\.vob"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="com.zui.gallery.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:scheme="content"/>
+                <data android:scheme="file"/>
+                <data android:mimeType="video/mpeg4"/>
+                <data android:mimeType="video/mp4"/>
+                <data android:mimeType="video/3gp"/>
+                <data android:mimeType="video/3gpp"/>
+                <data android:mimeType="video/3gpp2"/>
+                <data android:mimeType="video/webm"/>
+                <data android:mimeType="video/avi"/>
+                <data android:mimeType="video/x-matroska"/>
+                <data android:mimeType="application/sdp"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="http"/>
+                <data android:scheme="https"/>
+                <data android:mimeType="audio/x-mpegurl"/>
+                <data android:mimeType="audio/mpegurl"/>
+                <data android:mimeType="application/vnd.apple.mpegurl"/>
+                <data android:mimeType="application/x-mpegurl"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:excludeFromRecents="true" android:exported="true" android:icon="@drawable/maps" android:name="com.zui.gallery.app.Wallpaper" android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <intent-filter android:label="@string/camera_setas_wallpaper">
+                <action android:name="android.intent.action.ATTACH_DATA"/>
+                <data android:mimeType="image/*"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter android:label="@string/app_name">
+                <action android:name="android.intent.action.SET_WALLPAPER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:label="@string/app_name" android:name="com.zui.gallery.app.PanoramaPhotoActivity" android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="com.zui.gallery.PANORAMA_PHOTO_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:label="PanoramaVideoView" android:name="com.zui.gallery.app.PanoramaVideoActivity" android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="com.zui.gallery.PANORAMA_VIDEO_VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <provider android:authorities="com.zui.gallery" android:grantUriPermissions="true" android:name="com.zui.gallery.filtershow.provider.SharedImageProvider" android:readPermission="com.zui.gallery.filtershow.permission.READ" android:writePermission="com.zui.gallery.filtershow.permission.WRITE"/>
+        <service android:name="com.zui.gallery.filtershow.pipeline.ProcessingService"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="true" android:label="@string/title_activity_filter_show" android:name="com.zui.gallery.filtershow.FocusActivity" android:theme="@style/Theme.FilterShow">
+            <intent-filter>
+                <action android:name="action_focus_activity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:excludeFromRecents="true" android:exported="true" android:label="@string/title_activity_filter_show" android:name="com.zui.gallery.filtershow.FilterShowActivity" android:resizeableActivity="false" android:taskAffinity="com.zui.gallery.filtershow.FilterShowActivity" android:theme="@style/Theme.FilterShow">
+            <intent-filter>
+                <action android:name="android.intent.action.EDIT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="action_nextgen_edit"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="screenshot_launcher_edit"/>
+                <data android:mimeType="image/*"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:hardwareAccelerated="false" android:name="com.zui.gallery.ui.mosaic.MosaicActivity" android:theme="@style/Theme.FilterShow"/>
+        <activity android:hardwareAccelerated="false" android:name="com.zui.gallery.app.GifPlayerActivity" android:theme="@style/Theme.Gallery.Gif"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/crop" android:name="com.zui.gallery.filtershow.crop.CropActivity" android:theme="@style/Theme.Crop"/>
+        <activity android:name="com.zui.gallery.app.Best4KVideoSelectActivity" android:theme="@style/Theme.FilterShow"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.zui.gallery.app.NormalVideoTrimActivity" android:theme="@style/Theme.FilterShow"/>
+        <activity android:name="com.zui.gallery.app.MicroVideoTrimActivity" android:theme="@style/Theme.FilterShow"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.zui.gallery.app.SingleMovieActivity" android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar"/>
+        <activity android:name="com.zui.gallery.app.PermissionsActivity" android:theme="@style/Theme.FilterShow"/>
+        <activity android:name="com.zui.gallery.cloud.CloudSettingActivity" android:theme="@style/CloudSettingActivityStyle"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.zui.gallery.trash.LenovoTrashListActivity" android:theme="@style/TrashListActivityStyle"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.zui.gallery.trash.LenovoTrashDetailActivity" android:theme="@style/TrashDetailActivityStyle"/>
+        <activity android:name="com.zui.gallery.trash.LenovoTrashContinousListActivity" android:theme="@style/TrashDetailActivityStyle"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.zui.gallery.widget.WidgetActivity" android:resizeableActivity="false" android:theme="@style/WidgetActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="true" android:name="com.zui.gallery.banner.FileListActivity" android:permission="com.zui.gallery.permission.OPEN_PRIVACY_GALLERY" android:theme="@style/TrashListActivityStyle">
+            <intent-filter>
+                <action android:name="com.zui.gallery.open_privacy_gallery"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.zui.gallery.banner.FileListDetailsActivity" android:theme="@style/TrashListActivityStyle"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.zui.gallery.banner.MediaPlayerActivity" android:process=".privacy" android:theme="@style/TrashListActivityStyle"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.zui.gallery.widget.WidgetTransitActivity4x2" android:theme="@style/TrashListActivityStyle"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.zui.gallery.widget.WidgetTransitActivity4x3" android:theme="@style/TrashListActivityStyle"/>
+        <receiver android:exported="true" android:label="@string/widgetLabel3x3" android:name="com.zui.gallery.widget.AppWidget" android:permission="com.zui.launcher.permission.READ_SETTINGS">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="com.zui.gallery.widget.AppWidget"/>
+                <action android:name="com.zui.launcher.WALLPAPER_TEXT_COLOR"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/my_app_widget_info"/>
+        </receiver>
+        <receiver android:exported="true" android:label="@string/widgetLabel4x2" android:name="com.zui.gallery.widget.AppWidget4x2">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="com.zui.gallery.widget.AppWidget"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/my_app_widget4x2_info"/>
+        </receiver>
+        <service android:exported="false" android:name="com.zui.gallery.app.BatchService"/>
+        <provider android:authorities="com.zui.gallery.provider" android:exported="true" android:name="com.zui.gallery.database.GalleryProvider2" android:readPermission="com.zui.gallery.permission.READ_GALLERY_DATA" android:writePermission="com.zui.gallery.permission.WRITE_GALLERY_DATA"/>
+        <service android:exported="false" android:name="com.zui.gallery.app.service.GalleryPreLoadService">
+            <intent-filter>
+                <action android:name="com.zui.gallyer.service.start"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.zui.gallyer.service.stop"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.zui.gallyer.service.task"/>
+            </intent-filter>
+        </service>
+        <receiver android:exported="false" android:name="com.zui.gallery.app.service.GalleryBootReceiver">
+            <intent-filter>
+                <action android:name="com.zui.gallery.app.service.GalleryBootReceiverd.hardware.action.NEW_PICTURE"/>
+                <data android:mimeType="image/*"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="com.zui.gallery.fileprovider" android:exported="false" android:grantUriPermissions="true" android:name="androidx.core.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths"/>
+        </provider>
+        <receiver android:exported="true" android:name="com.zui.gallery.app.CameraShotNewPictureReceiver" android:permission="com.zui.gallery.permission.READ_GALLERY_DATA">
+            <intent-filter>
+                <action android:name="com.zui.gallery.FORCE_UPDATE_CAMERA_ALBUM"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.zui.gallery.FORCE_UPDATE_SCREENRECORDER_ALBUM"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.zui.gallery.jobscheduler.SyncTrashService" android:permission="android.permission.BIND_JOB_SERVICE" android:stopWithTask="false"/>
+        <activity android:name="com.zui.lenovoone.ui.LenovoOneSendActivity" android:theme="@style/Theme.LenovoOneUI.Transparent"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="rx_activity_result2.HolderActivity" android:theme="@style/Theme.Transparent"/>
+        <provider android:authorities="com.zui.gallery.lifecycle-process" android:exported="false" android:multiprocess="true" android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"/>
+    </application>
+</manifest>

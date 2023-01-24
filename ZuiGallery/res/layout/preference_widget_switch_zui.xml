@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<zui.widget.Switch android:id="@android:id/switch_widget" android:background="@null" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/preference_switch_offset_zui"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

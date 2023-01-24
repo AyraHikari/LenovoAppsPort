@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="actionModeBottomBarHeight">@dimen/tab_height</item>
+    <dimen name="action_bar_margin_left">32.0dip</dimen>
+    <dimen name="action_bar_margin_right">32.0dip</dimen>
+    <dimen name="album_set_page_press_h">10.0dip</dimen>
+    <dimen name="albumset_category_first_lable_height">5.0dip</dimen>
+    <dimen name="albumset_slot_height">215.0dip</dimen>
+    <dimen name="albumset_slot_height_gap">30.0dip</dimen>
+    <dimen name="albumset_slot_width">183.0dip</dimen>
+    <dimen name="albumset_slot_width_gap">12.0dip</dimen>
+    <dimen name="edit_title_bar_height">85.0dip</dimen>
+    <dimen name="filter_text_margin_top">3.0dip</dimen>
+    <dimen name="main_panel_container_width">140.0dip</dimen>
+    <dimen name="titleBarRight">32.0dip</dimen>
+    <dimen name="titleMainTextSizeSetAddPage">20.0dip</dimen>
+    <dimen name="trash_arrow_margin_right_x">65.0dip</dimen>
+    <dimen name="trash_arrow_width">22.0dip</dimen>
+    <dimen name="trash_count_margin_arraw">7.0dip</dimen>
+    <dimen name="trash_item_width">159.0dip</dimen>
+    <dimen name="widgetButtonMarginBottom">6.0dip</dimen>
+    <dimen name="widgetButtonMarginLeft">6.0dip</dimen>
+    <dimen name="widget_margin_left">0.0dip</dimen>
+    <dimen name="widget_margin_top">42.0dip</dimen>
+    <dimen name="widget_minutes_margin_top">-10.0dip</dimen>
+    <dimen name="widget_time_size">50.0dip</dimen>
+    <dimen name="widget_height">290.0dip</dimen>
+    <dimen name="widget_wight">260.0dip</dimen>
+    <dimen name="widget_error_height_y">26.0dip</dimen>
+    <dimen name="widget_error_width_x">8.0dip</dimen>
+    <dimen name="widget_icon_height">264.0dip</dimen>
+    <dimen name="widget_round_value">0.0dip</dimen>
+    <dimen name="widget_text_size">40.0dip</dimen>
+    <dimen name="widget_time_height">249.0dip</dimen>
+    <dimen name="widget_time_margin_left">19.0dip</dimen>
+    <dimen name="widget_time_width">94.0dip</dimen>
+    <dimen name="widget_total_width">259.0dip</dimen>
+    <dimen name="widget_week_margin_left">20.0dip</dimen>
+</resources>

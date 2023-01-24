@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/scrollView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="?dialogTitleVerticalPadding" android:overScrollMode="never"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/contentPanel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="30.0dip" android:paddingEnd="30.0dip" />
+        <TextView android:textSize="@dimen/message_dialog_permission_description_text_size" android:textColor="@color/message_dialog_description_text_color" android:id="@id/message" android:paddingTop="@dimen/message_dialog_permission_description_vertical_padding" android:paddingBottom="@dimen/message_dialog_permission_description_vertical_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="30.0dip" android:paddingEnd="30.0dip" />
+    </LinearLayout>
+</ScrollView>
