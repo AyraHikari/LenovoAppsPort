@@ -5,7 +5,7 @@ This is modified version of some Lenovo apps, it was ported and can be installed
 - [Download](https://www.pling.com/p/1976709)
 
 # Source Code
-- [ZUI Gallery](https://github.com/AyraHikari/LenovoAppsPort/tree/main/ZuiGallery)
+- [ZUI Gallery](https://github.com/AyraHikari/LenovoAppsPort/tree/master/ZuiGallery)
 
 ## How to build
 - apktool b {target}
